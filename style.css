@@ -1,0 +1,480 @@
+.main{
+    background-color:#3D087B;
+    width:100%;
+    height:800px;
+}
+.class1{
+    width:200px;
+    height:70px;
+}
+
+.logo1{
+    background-image: url("clock_logo@2x.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:170px;
+    height:100px;
+    position: absolute;
+    left:10vw;
+    top:3vw;
+}
+
+.Time{
+    display: flex;
+    position: absolute;
+    top:5vw;
+    right:10vw;
+    background-color: white;
+    width:450px;
+    height: 100px;
+    border-radius:10px;
+}
+
+#one{
+    color: #3D087B;
+    font-family:'Manrope', sans-serif;
+    position: absolute;
+    top:2.5vw;
+    left:2vw;
+}
+
+#two{
+    position: absolute;
+    top:1vw;
+    left:6vw;
+    width: 70px;
+    height: 76px;
+    background-color: #F6E2FF;
+    border-radius: 5px;
+}
+
+#hour{
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    position: absolute;
+    top:10px;
+    left:15px;
+    font-size:25px;
+    padding-left:10px;
+}
+
+#hour1{
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top:38px;
+    left:10px;
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+#colon1{
+    color:#3D087B;
+    position: absolute;
+    left:11vw;
+    top:2.5vw;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#three{
+    position: absolute;
+    top:1vw;
+    left:12vw;
+    width: 70px;
+    height: 76px;
+    background-color: #F6E2FF;
+    border-radius: 5px;
+}
+
+#min{
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    position: absolute;
+    top:10px;
+    left:15px;
+    font-size:25px;
+    padding-left: 6px;
+}
+
+#min1{
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top:38px;
+    left:10px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+#colon2{
+    color:#3D087B;
+    position: absolute;
+    left:17.2vw;
+    top:2.5vw;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#four{
+    position: absolute;
+    top:1vw;
+    left:18vw;
+    width: 70px;
+    height: 76px;
+    background-color: #F6E2FF;
+    border-radius: 5px;
+}
+
+#sec{
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    position: absolute;
+    top:10px;
+    left:15px;
+    font-size:25px;
+    padding-left:7px;
+}
+
+#sec1{
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top:38px;
+    left:10px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+#five{
+    color:white;
+    font-family:'Manrope', sans-serif;
+    position: absolute;
+    top:1vw;
+    left:24vw;
+    width: 65px;
+    height: 60px;
+    background-image:url("AM_svg@2x.png");
+    border-radius:5px;
+    text-align: center;
+    padding-top: 1vw;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.box1{
+    position: absolute;
+    top:11.5vw;
+    right:12vw;
+    background-color: white;
+    width:380px;
+    height: 20px;
+    border-radius:10px;
+    opacity: 0.22;
+}
+
+.box2{
+    position: absolute;
+    top:11.5vw;
+    right:13vw;
+    background-color: white;
+    width:350px;
+    height: 30px;
+    border-radius:10px;
+    opacity: 0.22;
+}
+
+.slo{
+    background-color: white;
+    width:450px;
+    height: 60px;
+    position: absolute;
+    top:15vw;
+    right:10vw;
+    border-radius: 10px;
+    color: #8E53F0;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family:'Manrope', sans-serif; 
+}
+
+.img1{
+    background-image: url("Component\ 30\ –\ 1@2x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:450px;
+    height:300px;
+    position: absolute;
+    top:23vw;
+    right:10vw;
+}
+
+.timeZone{
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    top:12vw;
+    left:10vw;
+    border-radius: 10px;
+}
+
+.box3{
+    width:540px;
+    height:60px;
+    position: absolute;
+    left: 10vw;
+    top:38vw;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    background-color:#4C3575;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 1vw;
+    font-size: 25px;
+}
+
+#Alaram{
+    width: 300px;
+    height:30px;
+    background-image: linear-gradient(to right,#8E53F0,#F25CFE);
+    color: white;
+    font-family:'Manrope', sans-serif; 
+    font-weight:bold;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top:45vw;
+    border-radius:5px;
+    left:10vw;
+    padding-top:10px;
+    border: none;
+}
+#Alaram:hover{
+    background-image: linear-gradient(to right,#F25CFE,#8E53F0);
+    cursor: pointer;
+}
+
+.setT{
+    background-color: #4C3575;
+    color: #F25CFE;
+    font-family:'Manrope', sans-serif; 
+    position: absolute;
+    top:45vw;
+    left:32vw;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height:1.5vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    width:200px;
+}
+
+.note{
+    color:#F25CFE;
+    position: absolute;
+    top:48vw;
+    right:1vw;
+    font-family:'Manrope', sans-serif; 
+    font-size: 15px;
+}
+
+#wakeup{
+    display: flex;
+}
+
+#imgg{
+    background-image: url("wake_up@2x.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:1.5vw;
+    left:2vw;
+}
+
+#imgQ{
+    position: absolute;
+    left:6vw;
+    top:2vw;
+    font-family:'Manrope', sans-serif;
+    color: #3D087B;
+    font-weight: lighter;
+}
+
+#imgD{
+    position: absolute;
+    left:16vw;
+    top:1.7vw;
+}
+#d1{
+    width:290px;
+    height: 35px;
+    color: #3D087BDE;
+    border-color: #EDEDED;
+    font-weight: lighter;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+#lunchT{
+    display: flex;
+}
+
+#imgg1{
+    background-image: url("lunch_time@2x.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:6.5vw;
+    left:2vw;
+}
+
+#imgQ1{
+    position: absolute;
+    left:6vw;
+    top:7.5vw;
+    font-family:'Manrope', sans-serif;
+    color: #3D087B;
+    font-weight: lighter;
+}
+
+#imgD1{
+    position: absolute;
+    left:16vw;
+    top:7.4vw;
+}
+#d2{
+    width:290px;
+    height: 35px;
+    color: #3D087BDE;
+    border-color: #EDEDED;
+    font-weight: lighter;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+#napT{
+    display: flex;
+}
+
+#imgg2{
+    background-image: url("nap_time@2x.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:12.8vw;
+    left:2vw;
+}
+
+#imgQ2{
+    position: absolute;
+    left:6vw;
+    top:13.4vw;
+    font-family:'Manrope', sans-serif;
+    color: #3D087B;
+    font-weight: lighter;
+}
+
+#imgD2{
+    position: absolute;
+    left:16vw;
+    top:12.8vw;
+}
+#d3{
+    width:290px;
+    height: 35px;
+    color: #3D087BDE;
+    border-color: #EDEDED;
+    font-weight: lighter;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+#nightT{
+    display: flex;
+}
+
+#imgg3{
+    background-image: url("night.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:19vw;
+    left:2vw;
+}
+
+#imgQ3{
+    position: absolute;
+    left:6vw;
+    top:19vw;
+    font-family:'Manrope', sans-serif;
+    color: #3D087B;
+    font-weight: lighter;
+}
+
+#imgD3{
+    position: absolute;
+    left:16vw;
+    top:18.7vw;
+}
+#d4{
+    width:290px;
+    height: 35px;
+    color: #3D087BDE;
+    border-color: #EDEDED;
+    font-weight: lighter;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+#line1{
+    border-left: 1.5px solid #858585;
+    height: 40px;
+    position: absolute;
+    left:3.2vw;
+    top:4vw;
+}
+
+#line2{
+    border-left: 1.5px solid #858585;
+    height: 45px;
+    position: absolute;
+    left:3.2vw;
+    top:9vw;
+}
+
+#line3{
+    border-left: 1.5px solid #858585;
+    height: 45px;
+    position: absolute;
+    left:3.2vw;
+    top:15.5vw;
+}
