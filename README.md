@@ -5,3 +5,4 @@
   The clock displays the current time in hours, minutes, and seconds, and updates in real-time.
   It’s a great project for beginners to understand how to work with JavaScript's Date object and basic DOM manipulation.
 </p>
+<p>skills:HTML, CSS, and JavaScript</p>
